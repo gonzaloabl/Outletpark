@@ -1,0 +1,14 @@
+.img{
+    max-height: 200px;
+}
+.Tiendas{
+    max-width: 200px;
+    max-height: 200px;
+}
+.Panoramas{
+    max-width: 200px;
+    max-height: 200px;
+}
+footer{
+    background: purple;
+}

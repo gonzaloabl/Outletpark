@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- import cdn bootstrap y relacion con hoja de estilos-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>OutletPark</title>
+    <link rel="stylesheet" href="E:\OutletPark\CSS\style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    
+</head>
+  <body>
+    <!-- navbar con logo clickable de la empresa-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <a class="navbar-brand" href="#">
+            <img src="E:\OutletPark\IMG\Logo-vina-outlet-park.png" alt="Logo-vina-outlet-park" width="60" height="64"> 
+            </a>
+            <div class="container-fluid justify-content-center ">
+                <div class="row  ">
+                    <div class="col-md-4 m">
+                        <a class="nav-link" href="#">Tiendas</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="nav-link" href="#">Panoramas</a>
+                    </div>
+                    <div class="col-md-4">
+                        <a class="nav-link" href="#">Ubicacion</a>
+                    </div>
+                </div>
+            </div>
+    </nav>
+    <div class="container-fluid">
+            <!-- wrapper del carrousel -->
+        <div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+            <!-- indicador de vista -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+            <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+         </div>
+  
+            <!-- carrousel en si -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="E:\OutletPark\IMG\Outlet2.png" alt="logo" class="d-block w-100 ">
+        </div>
+        <div class="carousel-item">
+            <img src="E:\OutletPark\IMG\Outlet3.jpg" alt="logo" class="d-block w-100  img ">
+        </div>
+        <div class="carousel-item">
+            <img src="E:\OutletPark\IMG\outlet4.png" alt="logo" class="d-block w-100 img">
+        </div>
+        </div>
+  
+        <!-- icono botones -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+<!--Dos grandes div que contienen las imagenes tratadas de separar por columnas-->
+<div class="bg-body-tertiary">
+    <div  class="row ">
+        <div><H1>Tiendas</H1></div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Mujer</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\mujer.jpg" alt="mujer" class="Tiendas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Hombre</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\Hombre.jpg" alt="hombre" class="Tiendas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Infantil</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\infantil.png" alt="infantil" class="Tiendas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Habitacion</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\bedroom.png" alt="habitacion" class="Tiendas"></a>
+        </div>
+    </div>
+    <!--grandes div que contienen las imagenes tratadas de separar por columnas-->
+    <div class="row">
+        <div><H1>Panoramas</H1></div>
+        <div class="col-sm-2 col-md-3 col-lg-3"> 
+            <h6>Show infantil</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\infantil.png" alt="Show Infantil" class="Panoramas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Discovery land</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\playground.jpg" alt="Discovery land" class="Panoramas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Karts</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\karts.jpg" alt="Pronto Panoramas" class="Panoramas
+                "></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Patio comida</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\burger.jpg" alt="Patio comida" class="Panoramas"></a>
+        </div>
+    </div>
+    <!--Dos grandes div que contienen las imagenes tratadas de separar por columnas-->
+    <div class="row">
+        <div class="col-sm-2 col-md-3 col-lg-3"> 
+            <h6>Feria emprendedores</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\startup.jpg" alt="Feria emprendedores" class="Panoramas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Pronto Panoramas</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\comingsoon.jpg" alt="Pronto Panoramas" class="Panoramas"></a>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h6>Pronto Panoramas</h6>
+            <a href="#"><img src="E:\OutletPark\IMG\comingsoon.jpg" alt="Pronto Panoramas" class="Panoramas"></a>
+        </div>
+    </div>
+</div>
+<!-- mapa del outlet-->
+    <div class="container-fluid">
+        <img src="E:\OutletPark\IMG\mapa.jpg" alt="" class="img">
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+  <!--Footer de la pagina con mapa de la direccion embebido en html elementos a mitad de desarrollo faltaron bordes y coloreo de los bloques de recorridos-->
+  <footer>
+    <div class="mx-auto" style="width: 200px;">
+        <h1>Locomocion</h1>
+    </div>
+    <div class="row">
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h2>Desde Valparaiso</h2>
+            <div class="mx-auto" style="width: 200px;">
+                <h4>214-211-202</h4>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h2>Desde Viña del mar</h2>
+            <div class="mx-auto" style="width: 200px;">
+                <h4>401-406-410-411</h4>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h2>Desde Rotonda con-con</h2>
+            <div class="mx-auto" style="width: 200px;">
+                <h4>305</h4>
+            </div>
+        </div>
+        <div class="col-sm-2 col-md-3 col-lg-3">
+            <h2>Desde Peñablanca</h2>
+            <div class="mx-auto" style="width: 200px;">
+                <h4>305</h4>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid border">
+        <div><h1>Direccion</h1></div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3346.695056195382!2d-71.50170752345288!3d-32.985446273850776!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9689dc684599dc21%3A0x188987bc098a2a37!2sCam.%20Internacional%202440%2C%202541754%20Vi%C3%B1a%20del%20Mar%2C%20Valpara%C3%ADso!5e0!3m2!1ses!2scl!4v1714146991866!5m2!1ses!2scl" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </footer>
+  <!--En este trabajo claramente falto tiempo para formatear de manera mas ordenada los elementos
+      No existen backups por el hecho que se realizo de un senton-->
+</html>
